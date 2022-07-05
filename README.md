@@ -10,6 +10,4 @@ Technology Stack:
 
 *Jest
 
-*React 
-
-*Testing Library
+*React Testing Library
