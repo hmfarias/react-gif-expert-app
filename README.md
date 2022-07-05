@@ -3,7 +3,7 @@
 This is the repository of my first app built with React
 
 
-#Technology Stack:
+# Technology Stack:
 
 *Vite
 
@@ -16,6 +16,6 @@ This is the repository of my first app built with React
 
 
 
-Sitio: https://hmfarias.github.io/react-gif-expert-app/
+* Sitio: https://hmfarias.github.io/react-gif-expert-app/
 
-Repositorio: https://github.com/hmfarias/react-gif-expert-app
+* Repositorio: https://github.com/hmfarias/react-gif-expert-app
