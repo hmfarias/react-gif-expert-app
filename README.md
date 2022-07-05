@@ -16,4 +16,4 @@ This is the repository of my first app built with React
 
 Sitio: https://hmfarias.github.io/react-gif-expert-app/
 
-Repositorio: https://github.com/hmfarias/02-acamica-gifos.git
+Repositorio: https://github.com/hmfarias/react-gif-expert-app
