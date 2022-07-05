@@ -14,6 +14,6 @@ This is the repository of my first app built with React
 *React Testing Library
 
 
-Sitio: https://hmfarias.github.io/02-acamica-gifos/
+Sitio: https://hmfarias.github.io/react-gif-expert-app/
 
 Repositorio: https://github.com/hmfarias/02-acamica-gifos.git
