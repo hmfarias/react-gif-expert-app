@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { PropTypes } from 'prop-types';
 import { capitalizeString } from '../helpers';
 
 export const AddCategory = ({ onNewCategory }) => {
@@ -17,6 +18,7 @@ export const AddCategory = ({ onNewCategory }) => {
 	};
 
 	const onSubmit = (event) => {
+		// console.log('hola desde onSubmit');//para usar en el test y verificar que se esta disparando el evento onSubmit del from
 		//5
 		event.preventDefault(); //para que no haga el full Refresh de la pagina
 		const newInputValue = inputValue.trim(); //le saco los espacios al principio o al final
@@ -37,7 +39,8 @@ export const AddCategory = ({ onNewCategory }) => {
 		//onSubmit refresca por defecto toda la pagina. Eso lo evito con event.preventDefault en el onSubmit.
 
 		//4
-		<form onSubmit={onSubmit}>
+		<form onSubmit={onSubmit} aria-label="form">
+			{/* aria-label es para usar en las pruebas */}
 			<input //1
 				type="text"
 				placeholder="Buscar Gifs"
@@ -48,4 +51,8 @@ export const AddCategory = ({ onNewCategory }) => {
 			/>
 		</form>
 	);
+};
+
+AddCategory.propTypes = {
+	onNewCategory: PropTypes.func.isRequired, //debe ser una funcion y es requerida
 };

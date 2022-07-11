@@ -29,7 +29,7 @@ export const GifExpertApp = () => {
 
 			{/* Input ***********************************************/}
 			<AddCategory
-				// setCategories={setCategories} // de esta manera estoy enviando la funcion para insertar la categoria, para que la use el higo AddCategory. Esto se puede mejorar
+				// setCategories={setCategories} // de esta manera estoy enviando la funcion para insertar la categoria, para que la use el hijo AddCategory. Esto se puede mejorar
 				//La idea es que el hijo NO INSERTE sino que me devuelva el valor a insertar, para que lo inserte el padre. Veamos abajo como se hace usando una prop:
 				onNewCategory={(value) => onAddCategory(value)}
 			/>

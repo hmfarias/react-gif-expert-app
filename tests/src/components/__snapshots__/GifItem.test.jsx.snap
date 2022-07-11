@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Gifitem /> component tests should be the same as Snapshot 1`] = `
+<div>
+  <div
+    class="card"
+  >
+    <img
+      alt="Nesdimug"
+      src="http://www.notredamejoyas.com.ar/"
+    />
+    <p>
+      Nesdimug
+    </p>
+  </div>
+</div>
+`;
